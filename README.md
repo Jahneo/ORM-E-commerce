@@ -20,11 +20,14 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 # Mock-Up
 The first animation shows GET routes to return all categories, all products, and all tags being tested in Insomnia Core:
-![Demo1](.Develop/assets/images/demo-01.gif)
+![Demo1](./Develop/assets/images/demo-01.gif)
+
 The second animation shows GET routes to return a single category, a single product, and a single tag being tested in Insomnia Core:
-![Demo2](.Develop/assets/images/demo-02.gif)
+![Demo2](./Develop/assets/images/demo-02.gif)
+
 The final animation shows the POST, PUT, and DELETE routes for categories being tested in Insomnia Core:
-![Demo3](.Develop/assets/images/demo-03.gif)
+![Demo3](./Develop/assets/images/demo-03.gif)
+
 # Packages
 MySQL2 and Sequelize packages to connect your Express.js API to a MySQL database and the dotenv package(store sensitive data)
 # Database Models
