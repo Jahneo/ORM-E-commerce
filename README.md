@@ -56,8 +56,9 @@ In the working directory log to to mysql
 # Insomnia Image
 ![Insomnia Image](./Develop/assets/images/insomnia.png)
 
-Preform all the task get put post and delete
-[Link](#Mock-Up)See Demos above
+Perform all the task get put post and delete
+*******************
+[Link](#Mock-Up)
 
 # Walk Through Video
 # First Video
