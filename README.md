@@ -20,22 +20,51 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 # Mock-Up
 The first animation shows GET routes to return all categories, all products, and all tags being tested in Insomnia Core:
-![Demo1](./assets/images/demo-01.gif)
+![Demo1](./Develop/assets/images/demo-01.gif)
 The second animation shows GET routes to return a single category, a single product, and a single tag being tested in Insomnia Core:
-![Demo2](./assets/images/demo-02.gif)
+![Demo2](./Develop/assets/images/demo-02.gif)
 The final animation shows the POST, PUT, and DELETE routes for categories being tested in Insomnia Core:
-![Demo3](./assets/images/demo-03.gif)
+![Demo3](./Develop/assets/images/demo-03.gif)
 # Packages
 MySQL2 and Sequelize packages to connect your Express.js API to a MySQL database and the dotenv package(store sensitive data)
 # Database Models
 Categories
-    Product
-        Tag
-            Product Tag
+    * Product
+        * Tag
+            * Product Tag
 # Associations
     * Product belongs to Category, as a category can have multiple products but a product can only belong to one category.
     * Category has many Product models
     * Product belongs to many Tag models. Using the ProductTag through model, allow products to have multiple tags and tags to have many products.
     * Tag belongs to many Product models.
+# Getting Started
+In the working directory log to to mysql
+ - mysql -u root -p
+- Enter password
+- Create Database using command
+   source db/schema.sql (ensure correct path to schema file)
 
-   
+ - Seed database 
+    - npm run seed
+ - Start the server 
+    - npm start
+ - Log into to Insomnia 
+ - In a new project window type 
+    - http://localhost:3001/api/tags/
+    - http://localhost:3001/api/categories/
+    - http://localhost:3001/api/products/
+# Insomnia Image
+![Insomnia Image](./Develop/assets/images/insomnia.png)
+
+Preform all the task get put post and delete
+See Demos above
+
+# Walk Through Video
+# First Video
+[![Video 1 image](./Develop/assets/images/video1.png)](https://drive.google.com/fil1gbRYlTzbOiFvkAC-g5wvpaF6XwdQ1DEM/preview)
+
+# Part 2
+[![Video 1 image](./Develop/assets/images/video2.png)](https://drive.google.com/file/d/1FqlSIRiLSLVbhur9eVKwMcz076o7W6MS/preview)
+
+# Issue 
+Problems with Free screencastify
