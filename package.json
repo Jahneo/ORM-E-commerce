@@ -1,0 +1,33 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "A E-commerce based application  that allows manipulation of data indatabases and develop API routes and application",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jahneo/ORM-E-commerce.git"
+  },
+  "keywords": [
+    "npm",
+    "api",
+    "database",
+    "put",
+    "delete",
+    "get"
+  ],
+  "author": "Neil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jahneo/ORM-E-commerce/issues"
+  },
+  "homepage": "https://github.com/Jahneo/ORM-E-commerce#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
