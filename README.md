@@ -87,7 +87,7 @@ Perform all the task get put post and delete
 
 # Walk Through Video
 # First Video
-[![Video 1 image](./Develop/assets/images/video1.png)](https://drive.google.com/fil1gbRYlTzbOiFvkAC-g5wvpaF6XwdQ1DEM/preview)
+[![Video 1 image](./Develop/assets/images/video1.png)](https://drive.google.com/file/d/1gbRYlTzbOiFvkAC-g5wvpaF6XwdQ1DEM/preview)
 
 # Part 2
 [![Video 1 image](./Develop/assets/images/video2.png)](https://drive.google.com/file/d/1FqlSIRiLSLVbhur9eVKwMcz076o7W6MS/preview)
